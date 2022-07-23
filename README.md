@@ -1,56 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Space Travelers' Hub
 
-> Description the project.
+> a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS , Javascript
+- React, Redux frameworks
+- Eslint, Stylelintrc, Redux ToolKit
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[NOT AVAILABLE](https://livedemo.com)
 
 
-## Getting Started
+To get a local copy up and running follow these simple steps.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the project `$ git clone https://github.com/MoRaad97/spacex-project-solo.git`
+- Open your project in VS code of any text editor that you love to use.
+- Install node js `npm install`
+- you can bulid the project `npm run build` and run it using the browser or live server or you can run it using `npm run start`.
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohammed Raad**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MoRaad97](https://github.com/MoRaad97)
+- Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
+- LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-alsuwayyid)
 
 ## 🤝 Contributing
 
@@ -64,10 +43,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- Microverse
+- Microverse students 
