@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
 
 - GitHub: [@MoRaad97](https://github.com/MoRaad97)
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
-- LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-alsuwayyid)
+- LinkedIn: [Mohammed Raad](https://www.linkedin.com/in/mohammed-raad-alsuwayyid/)
 
 ## 🤝 Contributing
 
