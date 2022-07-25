@@ -17,15 +17,41 @@ export const loadRocketsThunk = createAsyncThunk(LOAD_ROCKETS, async () => {
   return res;
 });
 
-
-
-
-const storeSlice = createSlice({
+const RocketsSlice = createSlice({
   name: 'spacex-project-solo/rockets',
   initialState: [],
+  reducers: {
+    ReservationAction(state, action) {
+      const newState = state.map((object) => {
+        if (object.rocket_id === action.payload.id) {
+          return {
+            ...object,
+            reserved: !object.reserved,
+          }
+        } else {
+          return {
+            ...object
+          }
+        }
+      })
+      return newState
+    },
+  },
   extraReducers: {
-    [loadRocketsThunk.fulfilled]: (state, action) => action.payload,
+    [loadRocketsThunk.fulfilled]: (state, action) => {
+      const newState = action.payload.map((object) => {
+        return {
+          rocket_id: object.rocket_id,
+          rocket_name: object.rocket_name,
+          description: object.description,
+          flickr_images: object.flickr_images,
+          reserved: false,
+        }
+      })
+      return newState
+    },
   },
 });
 
-export default storeSlice.reducer;
+export const rocketsReducer = RocketsSlice.actions
+export default RocketsSlice.reducer;
