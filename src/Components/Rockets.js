@@ -6,7 +6,6 @@ const Rockets = () => {
   // get rockets data from the store
   const rockets = useSelector(state => state.rockets);
   const dispatch = useDispatch();
-
   const handle = e => {
     const id = e.target.id;
     dispatch(rocketsReducer.ReservationAction({ id }))
