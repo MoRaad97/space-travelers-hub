@@ -17,6 +17,16 @@ img {
   width: 75px;
 }
 
+.rockets img {
+  width: 275px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.rocket-card {
+  display: flex;
+  margin-bottom: 20px;
+}
 .my-profile {
   background-color: rgb(0, 0, 255);
   height: 100vh;
@@ -28,4 +38,5 @@ img {
 .rockets {
   background-color: rgb(255, 145, 0);
   height: 100vh;
+  gap: 20px;
 }
