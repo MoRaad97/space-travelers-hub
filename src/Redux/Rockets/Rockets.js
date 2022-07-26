@@ -27,31 +27,28 @@ const RocketsSlice = createSlice({
           return {
             ...object,
             reserved: !object.reserved,
-          }
-        } else {
-          return {
-            ...object
-          }
+          };
         }
-      })
-      return newState
+        return {
+          ...object,
+        };
+      });
+      return newState;
     },
   },
   extraReducers: {
     [loadRocketsThunk.fulfilled]: (state, action) => {
-      const newState = action.payload.map((object) => {
-        return {
-          rocket_id: object.rocket_id,
-          rocket_name: object.rocket_name,
-          description: object.description,
-          flickr_images: object.flickr_images,
-          reserved: false,
-        }
-      })
-      return newState
+      const newState = action.payload.map((object) => ({
+        rocket_id: object.rocket_id,
+        rocket_name: object.rocket_name,
+        description: object.description,
+        flickr_images: object.flickr_images,
+        reserved: false,
+      }));
+      return newState;
     },
   },
 });
 
-export const rocketsReducer = RocketsSlice.actions
+export const rocketsReducer = RocketsSlice.actions;
 export default RocketsSlice.reducer;

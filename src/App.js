@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux/es/exports';
-import { loadRocketsThunk } from "./Redux/Rockets/Rockets";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { loadRocketsThunk } from './Redux/Rockets/Rockets';
 import Navbar from './Components/Navbar';
 import Profile from './Components/Profile';
 import Missions from './Components/Missions';
@@ -17,15 +17,12 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Profile />} />
-        <Route path='Missions' element={<Missions />} />
-        <Route path='Rockets' element={<Rockets />} />
+        <Route path="/" element={<Profile />} />
+        <Route path="Missions" element={<Missions />} />
+        <Route path="Rockets" element={<Rockets />} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
-
-
-
