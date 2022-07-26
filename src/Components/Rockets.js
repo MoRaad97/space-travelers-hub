@@ -5,7 +5,7 @@ import './style/Rockets.css';
 
 const Rockets = () => {
   // get rockets data from the store
-  const rockets = useSelector((state) => state.rocketsReducer);
+  const rockets = useSelector((state) => state.rockets);
 
   const dispatch = useDispatch();
 
