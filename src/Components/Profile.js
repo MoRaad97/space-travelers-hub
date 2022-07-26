@@ -10,6 +10,15 @@ const Profile = () => {
       <div className="container">
         <table>
           <thead>My Missions</thead>
+          <tbody>
+            {revervedRockets.map((element) => (
+              <tr
+                key={element.mission_id}
+              >
+                {element.mission_name}
+              </tr>
+            ))}
+          </tbody>
         </table>
         <table>
           <thead>My Rockets</thead>

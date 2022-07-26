@@ -1,0 +1,33 @@
+.table-bordered{
+    width: 108%;
+}
+.missions{
+    width: 165%;
+}
+.mission-card {
+    display: flex;
+    margin-bottom: 20px;
+  }
+.mission-card .join-mission {
+    padding: 9px;
+    background-color: #eef2f6;
+    border: 2px solid;
+    color: rgb(134 123 123);
+    border-radius: 2px solid;
+    width: max-content;
+  }
+  .mission-name{
+    width: 11%;
+  }
+  .button{
+    width: 20%;
+    padding-left: 50px;
+  }
+  .not-reserved {
+    padding: 10px;
+    background-color: #5f6366;;
+    border: none;
+    width: max-content;
+    color: white;
+    border-radius: 3px;
+  }
