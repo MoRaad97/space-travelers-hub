@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from 'react-redux/es/exports';
+import './style/Profile.css'
 
 const Profile = () => {
   const rockets = useSelector(state => state.rockets);
@@ -8,9 +9,19 @@ const Profile = () => {
   })
   return (
     <section className="my-profile">
-      {revervedRockets.map((element) => {
-        return <h3 key={element.rocket_id}>{element.rocket_name}</h3>
-      })}
+      <div className="container">
+        <table>
+          <thead>My Missions</thead>
+        </table>
+        <table>
+          <thead>My Rockets</thead>
+          <tbody>
+            {revervedRockets.map((element) => {
+              return <tr key={element.rocket_id}>{element.rocket_name}</tr>
+            })}
+          </tbody>
+        </table>
+      </div>
     </section>
   )
 };
