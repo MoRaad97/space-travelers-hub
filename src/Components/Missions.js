@@ -1,12 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const Missions = () => {
-  return (
-    <section className="missions">
+const Missions = () => (
+  <section className="missions" />
 
-    </section>
-
-  )
-};
+);
 
 export default Missions;
