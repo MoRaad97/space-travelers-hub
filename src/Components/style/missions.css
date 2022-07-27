@@ -1,33 +1,71 @@
-.table-bordered{
-    width: 108%;
+section{
+  font-family: Arial, Helvetica, sans-serif;
 }
-.missions{
-    width: 165%;
+.table-bordered {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead td {
+  border: 2px solid rgb(216, 216, 216);
 }
 .mission-card {
-    display: flex;
-    margin-bottom: 20px;
-  }
-.mission-card .join-mission {
-    padding: 9px;
-    background-color: #eef2f6;
-    border: 2px solid;
-    color: rgb(134 123 123);
-    border-radius: 2px solid;
-    width: max-content;
-  }
-  .mission-name{
-    width: 11%;
-  }
-  .button{
-    width: 20%;
-    padding-left: 50px;
-  }
-  .not-reserved {
-    padding: 10px;
-    background-color: #5f6366;;
-    border: none;
-    width: max-content;
-    color: white;
-    border-radius: 3px;
-  }
+  height: 180px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.mission-card:nth-child(odd) {
+  background-color: rgb(216, 216, 216);
+}
+
+.mission-card td {
+  border: 2px solid lightgray;}
+
+.mission-card .not-joined {
+  padding: 9px;
+  background-color: transparent;
+  color: rgb(134 123 123);
+  border: solid 2px rgb(134 123 123);
+  border-radius: 3px;
+  width: max-content;
+}
+
+.mission-name {
+  padding-left: 20px;
+  width: 11%;
+}
+
+.button {
+  width: 20%;
+  padding-left: 50px;
+}
+
+.joined {
+  padding: 10px;
+  background-color: transparent;
+  border: solid 2px red;
+  width: max-content;
+  color: red;
+  border-radius: 3px;
+}
+
+.not-member {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  width: 112px;
+  border: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-member {
+  background-color: #0586EC;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}

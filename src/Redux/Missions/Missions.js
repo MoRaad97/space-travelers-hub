@@ -26,7 +26,7 @@ const missionsSlice = createSlice({
         if (object.mission_id === action.payload.id) {
           return {
             ...object,
-            Joined: !object.Joined,
+            joined: !object.joined,
           };
         }
         return {
@@ -42,7 +42,7 @@ const missionsSlice = createSlice({
         mission_id: object.mission_id,
         mission_name: object.mission_name,
         description: object.description,
-        Joined: false,
+        joined: false,
       }));
       return newState;
     },
