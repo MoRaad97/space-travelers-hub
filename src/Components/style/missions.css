@@ -1,6 +1,7 @@
-section{
+section {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .table-bordered {
   width: 100%;
   border-collapse: collapse;
@@ -9,6 +10,7 @@ section{
 thead td {
   border: 2px solid rgb(216, 216, 216);
 }
+
 .mission-card {
   height: 180px;
   width: 100%;
@@ -20,7 +22,8 @@ thead td {
 }
 
 .mission-card td {
-  border: 2px solid lightgray;}
+  border: 2px solid lightgray;
+}
 
 .mission-card .not-joined {
   padding: 9px;
@@ -61,7 +64,7 @@ thead td {
 }
 
 .active-member {
-  background-color: #0586EC;
+  background-color: #0586ec;
   color: white;
   border-radius: 5px;
   border: none;

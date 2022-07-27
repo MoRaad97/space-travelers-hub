@@ -24,6 +24,14 @@ nav a {
   text-decoration: none;
 }
 
+nav a:active {
+  color: rgb(0, 213, 255);
+}
+
+nav a:hover {
+  color: blue;
+}
+
 nav ul a:nth-child(2) {
   padding: 0 22px 0 22px;
   position: relative;
@@ -38,14 +46,6 @@ nav ul a:nth-child(2)::after {
   position: absolute;
   right: 10px;
   bottom: 2px;
-}
-
-nav a:hover {
-  color: blue;
-}
-
-nav a:active {
-  color: rgb(0, 213, 255);
 }
 
 nav .logo {
