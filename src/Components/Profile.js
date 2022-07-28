@@ -17,7 +17,7 @@ const Profile = () => {
             {joinedMissions.map((element) => (
               <tr
                 key={element.mission_id}
-                className='profile-row'
+                className="profile-row"
               >
                 {element.mission_name}
               </tr>
@@ -30,7 +30,7 @@ const Profile = () => {
             {revervedRockets.map((element) => (
               <tr
                 key={element.rocket_id}
-                className='profile-row'
+                className="profile-row"
               >
                 {element.rocket_name}
               </tr>

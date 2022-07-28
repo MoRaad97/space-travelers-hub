@@ -12,24 +12,16 @@ exports[`Missions Component snapshot test 1`] = `
     >
       <thead>
         <tr>
-          <td
-            scope="col"
-          >
+          <td>
             Mission
           </td>
-          <td
-            scope="col"
-          >
+          <td>
             Description
           </td>
-          <td
-            scope="col"
-          >
+          <td>
             Status
           </td>
-          <td
-            scope="col"
-          >
+          <td>
              
           </td>
         </tr>
