@@ -29,7 +29,13 @@ To get a local copy up and running follow these simple steps.
 
 - GitHub: [@MoRaad97](https://github.com/MoRaad97)
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
-- LinkedIn: [Mohammed Raad](https://www.linkedin.com/in/mohammed-raad-alsuwayyid/)
+- LinkedIn: [Mohammed Raad](https://www.linkedin.com/in/mohammed-raad-alsuwayyid
+
+👤 **Abel Desalegn**
+
+- GitHub: [@AbelDesalegn](https://github.com/Abel-desu)
+- Twitter: [@AbelDesalegn](https://twitter.com/abeldesalegn97)
+- LinkedIn: [@AbelDesalegn](https://www.linkedin.com/in/abel-desalegn)
 
 ## 🤝 Contributing
 
