@@ -19,7 +19,7 @@ thead {
   height: 50px;
 }
 
-tr {
+.profile-row {
   text-align: left;
   font-size: 20px;
   border: 2px solid;

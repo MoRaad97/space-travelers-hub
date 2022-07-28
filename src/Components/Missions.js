@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux/es/exports';
+import { useSelector, useDispatch } from 'react-redux';
 import { missionsReducer } from '../Redux/Missions/Missions';
 import './style/missions.css';
 
@@ -16,45 +16,47 @@ const Missions = () => {
 
   return (
     <section className="missions">
-      <table className="container">
+      <div className="container">
         <table className="table-bordered">
           <thead>
             <tr>
-              <th scope="col">Mission</th>
-              <th scope="col">Description</th>
-              <th scope="col">Status</th>
-              <th scope="col"> </th>
+              <td scope="col">Mission</td>
+              <td scope="col">Description</td>
+              <td scope="col">Status</td>
+              <td scope="col"> </td>
             </tr>
           </thead>
+          <tbody>
+            {missions.map((mission) => (
+              <tr className="mission-card" key={mission.mission_id}>
+                <td>
+                  <p className="mission-name">{mission.mission_name}</p>
+                </td>
+                <td>
+                  {mission.description}
+                </td>
+                <td>
+                  {!mission.joined && <p className="not-member" id="member" type="button"> NOT A MEMBER</p>}
+                  {mission.joined && <p className="active-member" id="member" type="button"> ACTIVE MEMBER</p>}
+                </td>
+                <td>
+                  {!mission.joined && (
+                    <button id={mission.mission_id} type="button" className="not-joined" onClick={handle}>
+                      JOIN MISSION
+                    </button>
+                  )}
+                  {mission.joined && (
+                    <button id={mission.mission_id} type="button" className="joined" onClick={handle}>
+                      LEAVE MISSION
+                    </button>
+                  )}
+                </td>
+
+              </tr>
+            ))}
+          </tbody>
         </table>
-        {missions.map((mission) => (
-          <div className="mission-card" key={mission.mission_id}>
-            <td>
-              <th className="mission-name">{mission.mission_name}</th>
-              <td>
-                {mission.joined && (<span>Reserved</span>)}
-                {mission.description}
-              </td>
-              <td>
-                {!mission.join && <button className="not-reserved" id="member" type="button"> NOT A MEMBER</button>}
-                {mission.join && <button className="join-mission" id="member" type="button"> ACTIVE MEMBER</button>}
-              </td>
-              <td>
-                {!mission.join && (
-                <button id={mission.mission_id} type="button" className="join-mission" onClick={handle}>
-                  JOIN MISSION
-                </button>
-                )}
-                {mission.join && (
-                <button id={mission.mission_name} type="button" className="not-reserved" onClick={handle}>
-                  LEAVE MISSION
-                </button>
-                )}
-              </td>
-            </td>
-          </div>
-        ))}
-      </table>
+      </div>
     </section>
 
   );
