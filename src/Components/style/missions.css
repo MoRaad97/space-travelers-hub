@@ -1,11 +1,16 @@
+section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .table-bordered {
   width: 100%;
   border-collapse: collapse;
 }
 
 thead td {
-  border: 3px solid purple;
+  border: 2px solid rgb(216, 216, 216);
 }
+
 .mission-card {
   height: 180px;
   width: 100%;
@@ -17,7 +22,7 @@ thead td {
 }
 
 .mission-card td {
-  border: 3px solid purple;
+  border: 2px solid lightgray;
 }
 
 .mission-card .not-joined {
@@ -30,6 +35,7 @@ thead td {
 }
 
 .mission-name {
+  padding-left: 20px;
   width: 11%;
 }
 
@@ -51,6 +57,8 @@ thead td {
   background-color: gray;
   color: white;
   border-radius: 5px;
+
+  width: 112px;
   border: none;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -62,6 +70,6 @@ thead td {
   border-radius: 5px;
   border: none;
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -20,10 +20,10 @@ const Missions = () => {
         <table className="table-bordered">
           <thead>
             <tr>
-              <td scope="col">Mission</td>
-              <td scope="col">Description</td>
-              <td scope="col">Status</td>
-              <td scope="col"> </td>
+              <td>Mission</td>
+              <td>Description</td>
+              <td>Status</td>
+              <td> </td>
             </tr>
           </thead>
           <tbody>
