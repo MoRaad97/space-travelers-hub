@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-
 // Actions
 const LOAD_ROCKETS = 'spacex-project-solo/rockets/LOAD_ROCKETS';
 
@@ -9,7 +8,8 @@ const baseUrl = 'https://api.spacexdata.com/v3/rockets';
 
 // create ASYNC Thunks
 export const loadRocketsThunk = createAsyncThunk(LOAD_ROCKETS, async () => {
-  // fetch Books
+  // fetch Rockets
+
   const response = await axios.get(`${baseUrl}`).catch((err) => {
     console.log('Error', err);
   });
