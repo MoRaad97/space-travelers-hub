@@ -18,7 +18,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-- Clone the project `$ git clone https://github.com/MoRaad97/spacex-project-solo.git`
+- Clone the project `$ git clone https://github.com/MoRaad97/space-travelers-hub.git`
 - Open your project in VS code of any text editor that you love to use.
 - Install node js `npm install`
 - you can bulid the project `npm run build` and run it using the browser or live server or you can run it using `npm run start`.
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
 
 - GitHub: [@MoRaad97](https://github.com/MoRaad97)
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
-- LinkedIn: [Mohammed Raad](https://www.linkedin.com/in/mohammed-raad-alsuwayyid
+- LinkedIn: [Mohammed Raad](https://www.linkedin.com/in/mohammed-raad-alsuwayyid)
 
 👤 **Abel Desalegn**
 
