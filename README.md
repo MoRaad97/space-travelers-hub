@@ -11,10 +11,11 @@
 - React, Redux frameworks
 - Eslint, Stylelintrc, Redux ToolKit
 
-## Live Demo (if available)
+## Live Demo
 
 [NOT AVAILABLE](https://livedemo.com)
 
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
