@@ -1,0 +1,74 @@
+section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-bordered {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead td {
+  border: 2px solid rgb(216, 216, 216);
+}
+
+.mission-card {
+  height: 180px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.mission-card:nth-child(odd) {
+  background-color: rgb(216, 216, 216);
+}
+
+.mission-card td {
+  border: 2px solid lightgray;
+}
+
+.mission-card .not-joined {
+  padding: 9px;
+  background-color: transparent;
+  color: rgb(134 123 123);
+  border: solid 2px rgb(134 123 123);
+  border-radius: 3px;
+  width: max-content;
+}
+
+.mission-name {
+  padding-left: 20px;
+  width: 11%;
+}
+
+.button {
+  width: 20%;
+  padding-left: 50px;
+}
+
+.joined {
+  padding: 10px;
+  background-color: transparent;
+  border: solid 2px red;
+  width: max-content;
+  color: red;
+  border-radius: 3px;
+}
+
+.not-member {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  width: 112px;
+  border: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-member {
+  background-color: #0586ec;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}

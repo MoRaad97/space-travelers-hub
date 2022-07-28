@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component snapshot test 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="logo"
+    >
+      <img
+        alt="logo"
+        src="planet.png"
+      />
+      <h1>
+        Space Travelers' Hub
+      </h1>
+    </div>
+    <ul>
+      <a
+        className=""
+        href="/Rockets"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Rockets
+      </a>
+      <a
+        className=""
+        href="/Missions"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        Missions
+      </a>
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "underline",
+          }
+        }
+      >
+        My Profile
+      </a>
+    </ul>
+  </div>
+</nav>
+`;
