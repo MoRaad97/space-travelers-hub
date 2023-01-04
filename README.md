@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[NOT AVAILABLE](https://livedemo.com)
+[Netlify Live Link](https://space-hub-moraad.netlify.app/Rockets)
 
 ## Getting Started
 
